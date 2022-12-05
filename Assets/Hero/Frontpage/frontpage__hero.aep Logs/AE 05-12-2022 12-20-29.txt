@@ -1,0 +1,8 @@
+  05-12-2022 12:20:29: Starting composition “Comp 1”.
+
+  Output To: D:\ea DANIA\hero 2.mov    05-12-2022 12:20:40: Finished composition “Comp 1”.
+
+
+  Total Time Elapsed: 11 Seconds
+Log closed on 05-12-2022 at 12:20:40
+

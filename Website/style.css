@@ -48,7 +48,7 @@ a {
     padding: 0;
     list-style: none;
     overflow: hidden;
-    background-color: #1C4D64;
+    background-color: #1C4D64; 
 }
 
 .header ul a {
@@ -274,6 +274,13 @@ a {
 /* computer-størrelse */
 
 @media screen and (min-width: 960px) {
+    .header {
+        background-color: rgba(0, 0, 0, 0.1);
+        position: absolute;
+    }
+    .header ul {
+        background-color: rgba(0, 0, 0, 0.1);
+    }
 
     .frontpage__video {
         margin-top: 0;
