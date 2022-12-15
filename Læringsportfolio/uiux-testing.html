@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCH læringsportfolio</title>
+    <link rel="icon" href="images/favicon2.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- hamburger- menu/ linket: https://www.youtube.com/watch?v=sjrp1FEHnyA -->
+    <header class="header">
+        <a href="hjem.html"><img class="img-logo" src="images/logo.png" alt="Banner logo"></a>
+        <!-- menu-btn og nav-icon gør der er en bruger-menu og en checkbox -->
+        <input class="menu-btn" type="checkbox" id="menu-btn">
+        <!-- menu-btn og nav-icon gør der er en bruger-menu og en checkbox -->
+        <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+        <ul class="menu">
+            <li>
+                <form class="menu__searchbar" action=""">
+                    <input type="text" placeholder="Søg...">
+                    <button type="button"><img src="images/searchicon.png" alt=""></button>
+                </form>
+            </li>
+            <li><a href="hjem.html">Hjem</a></li>
+            <li><a class="highlight" href="uiux.html">UI & UX</a></li>
+            <li><a href="kodning.html">Kodning</a></li>
+            <li><a href="some.html">SoMe</a></li>
+            <li><a href="tools.html">Værktøjer</a></li>
+            <li><a href="projekter.html">Projekter</a></li>
+            <li><a target="_blank" href="https://docs.google.com/document/d/1Wxk5ODohRU9EFxMOYYHUswEJxxdl1QILUsjDoz4hbnI/">Rapport</a></li>
+        </ul>
+    </header>
+
+    <!-- hero-video -->
+    <section class="page__hero">
+        <img class="page__hero" src="images/uiux/uiux-testing.png" alt="hero billede">
+    </section>
+    
+    <section class="frontpage__intro-section">
+        <h2>frederik cabizares hansen</h2>
+        <h1>Testing - hvad er det?</h1>
+        <p>Der findes mange former for usability-tests for at teste brugergrænsefladen i ens produktion overfor ens brugere. Der findes både tests til før - og efter produktion. Men det er jo svært at teste før at man har noget at teste. Læs f.eks <a href="uiux-kortsortering.html">kortsortering</a>, og se hvordan man bruger det som pre-test.</p>
+        <h1>Brugertest</h1>
+        <p>Meget simpel test, man sætter testeren ud i forskellige scenarier som man har forberedt. Det er vigtigt man noterer, hvem der foretager testen, samt testpersonens baggrund. Spørgsmålene kunne f.eks være "Find min kontaktside" eller "Find det her produkt og tilføj et produkt til din kurv".</p>
+        <p>Meget vigtig test for at finde ud af hvor vidt ens produktion er brugervenlig - og om der opstår støj i processerne.</p>
+        <p>Vi brugte brugertesten i både vores projekt <a href="projekter-bif.html">Bjerringbro IF-redesign</a> samt <a href="projekter-laanafkameraudstyr.html">EADania: Lån af kameraudstyr-webapp</a> til at finde ud af hvor brugervenlig vores brugergrænseflade er.</p>
+        <h1>Gangstertest</h1>
+        <p>Gangstertesten ligner meget den traditionelle brugertest - den bruges til samme formål, bare på et lidt dybere plan. Her sætter man testbrugeren i en meget specifik og konkret situation, og man prøver at tvinge fejl ud af dem - som man kan bruge til feedback for at optimere noget bestemt.</p>
+        <p>Den bruges til samme formål som brugertesten i grove træk, meget simpel måde at teste enkelte moduler samt den generelle <a href="uiux-informationsarkitektur.html">informationsarkitektur</a> i ens produktion.</p>
+        <p>Testen består af 6 forskellige spørgsmål, hvor hvert spørgsmål giver i mellem 0 og 3 point, som gives af testbrugeren. Lavere scorer, dårligere informationsarkitektur. De 6 spørgsmål lyder således:</p>
+        <p class="questions">1. Hvilket website befinder du dig på?<br>2. Hvor er websitets globale menu?<br>3. Hvilken underside befinder du dig på?<br>4. Hvilke muligheder har du på denne side?<br>5. Hvordan er du kommet hertil?<br>6. Hvor kan du søge?</p>
+        <h1>Hva' ka' det?</h1>
+        <p>Det kan bruges til at gøre ens produktion endnu bedre og endnu mere brugervenlig - man kan finde ens hjemmesides stærke og svage punkter. Man kan også bruge det til at analyserer en eksisterende hjemmeside, hvis man f.eks skal redesigne den.</p>
+        <h1>Hvor ka' jeg bruge det?</h1>
+        <p>Man kan bruge dem i alle ens designs - om det er en hjemmeside eller app. Samme principper gør sig gældende. Jeg har f.eks brugt dem i disse to projekter: <a href="projekter-bif.html">Bjerringbro IF-redesign</a> og <a href="projekter-laanafkameraudstyr.html">EADania: Lån af kameraudstyr-webapp</a>.</p>
+        <h1>Hvor ka' jeg læse mere om det?</h1>
+        <p class="page__readmore-button"><a target="_blank" href="https://innovation.sites.ku.dk/files/2013/12/Intro-til-brugertest.pdf">Læs mere om brugertest</a></p>
+        <p class="page__readmore-button"><a target="_blank" href="https://bechster.dk/2018/05/09/gangstertest/">Læs mere om gangstertest</a></p>
+    </section>
+
+
+    <!-- footer -->
+    <footer class="upperfooter">
+        <ul class="footer__some">
+            <li><a target="_blank" href="https://www.youtube.com/cabizfx"><img
+                        class="footericon" src="images/some/youtube.png" alt="Link to YouTube"></a></li>
+            <li><a target="_blank"
+                    href="https://www.linkedin.com/in/frederik-cabizares-hansen/"><img
+                        class="footericon" src="images/some/linkedin.png" alt="Link til min linkedin-profil"></a></li>
+            <li><a target="_blank" href="mailto:cabizares@hotmail.com"><img
+                        class="footericon" src="images/some/mailto.png" alt="Send mig en mail"></a>
+            </li>
+            <li><a target="_blank" href="https://www.facebook.com/CabizFX/"><img class="footericon"
+                        src="images/some/facebook.png" alt="Link to Facebook-page"></a></li>
+        </ul>
+        <ul class="footer__links">
+            <li><a href="hjem.html">Hjem</a></li>
+            <li><a class="highlight" href="uiux.html">UI & UX</a></li>
+            <li><a href="kodning.html">Kodning</a></li>
+            <li><a href="some.html">SoMe</a></li>
+            <li><a href="tools.html">Værktøjer</a></li>
+            <li><a href="projekter.html">Projekter</a></li>
+            <li><a target="_blank" href="https://docs.google.com/document/d/1Wxk5ODohRU9EFxMOYYHUswEJxxdl1QILUsjDoz4hbnI/">Rapport</a></li>
+        </ul>
+    </footer>
+    <footer class="underfooter">
+        <p>© 2022 Frederik Cabizares Hansen - All Rights Reserved</p>
+    </footer>
+</body>
+</html>
