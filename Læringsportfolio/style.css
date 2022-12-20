@@ -51,10 +51,6 @@ a {
     width: 4rem;
     height: auto;
 }
-.pre-loader .preloader-anim {
-    width: 6rem;
-    height: auto;
-}
 /* header */
 
 .header {
@@ -352,6 +348,9 @@ a {
     opacity: 40%;
 }
 
+.footer__some {
+    margin-top: 2rem;
+}
 .footer__some img {
     width: 50px;
     padding: 0 0.5rem;

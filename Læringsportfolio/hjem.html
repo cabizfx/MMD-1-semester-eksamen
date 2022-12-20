@@ -36,7 +36,7 @@
 
     <!-- hero-video -->
     <section class="frontpage__intro">
-        <video autoplay loop muted class="frontpage__video">
+        <video autoplay loop muted playsinline class="frontpage__video">
             <source src="images/hero/frontpage__video.mp4" type="video/mp4">
         </video>
     </section>
@@ -101,16 +101,14 @@
         <p>© 2022 Frederik Cabizares Hansen - All Rights Reserved</p>
     </footer>
         <!-- pre-loading-inspiration https://www.youtube.com/watch?v=gttmqvZ4kYc&ab_channel=DSCode\ -->
-    <div class="pre-loader">
-        <video autoplay loop muted plays-inline class="preloader-anim">
-            <source src="images/preloader-logo.mp4" type="video/mp4">
-        </video>
-    </div>
+        <div class="pre-loader">
+            <img src="images/logo.png" alt="">
+        </div>
     <script>
         $(window).on("load",function(){
             setTimeout(() => {
                 $(".pre-loader").fadeOut("slow")
-            }, 2800)
+            }, 500)
         });
     </script>
 </body>
