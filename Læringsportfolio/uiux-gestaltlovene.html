@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FCH læringsportfolio</title>
+    <title>Law of UX - FCH Læringsportfolio</title>
     <link rel="icon" href="images/favicon2.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.6.2.min.js"></script>
 </head>
 <body>
 
@@ -98,5 +99,14 @@
     <footer class="underfooter">
         <p>© 2022 Frederik Cabizares Hansen - All Rights Reserved</p>
     </footer>
+        <!-- pre-loading-inspiration https://www.youtube.com/watch?v=gttmqvZ4kYc&ab_channel=DSCode\ -->
+    <div class="pre-loader">
+        <img src="images/logo.png" alt="">
+    </div>
+    <script>
+        $(window).on("load",function(){
+            $(".pre-loader").fadeOut("slow")
+        });
+    </script>
 </body>
 </html>
